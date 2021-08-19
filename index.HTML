@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="calculator">
+        <div class="calc">
+            <div class="result">
+                <p id="input"></p>
+                <p id="output"></p>
+            </div>
+            <div class="line">
+                <button value="0" id = 'calswitch'>ON</button>
+                <button value="" id = 'clear'>C</button>
+                <button value="" id = 'delete'>Del</button>
+                <button value="" id = 'undo'>Un</button>
+            </div>
+            <div class="line">
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button value="/" class="operator">/</button>
+                <button value="*" class="operator">*</button>
+            </div>
+            <div class="line">
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="7">7</button>
+                <button value="-" class="operator">-</button>
+            </div>
+            <div class="line">
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button value="4">4</button>
+                <button value="+" class="operator">+</button>
+            </div>
+            <div class="line">
+                <button value="">0</button>
+                <button value="1">1</button>
+                <button value="" class="decimal">.</button>
+                <button value="=" class="operator equal">=</button>
+            </div>
+        </div>
+    </div>
+    <p id  = para></p>
+    <form action="">
+        <input type="text" oncopy="copyFunction()" oncut="copyFunction()" value="form">copy
+    </form>
+    <button id = 'lowerBtn'value="" class="lower">0</button>
+    <p id = 'lowerP'>0</p>
+    <script src="script.js"></script>
+   <!-- <script src="function.js"></script> -->
+</body>
+</html>
