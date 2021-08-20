@@ -334,3 +334,29 @@ console.log(set2)
 function copyFunction(){
     confirm("Action restricted!")
 }
+
+var x = 20;
+var result = (5 < 18) ? "Good day." : "Good evening.";
+console.log(result)
+
+
+let counter = 100;
+function add3() {
+ 
+  counter /= 50;
+  
+  return counter;
+}
+
+console.log(add3()) 
+
+var numbers7 = [45, 4, 9, 16, 25];
+var over18 = numbers7.filter(myFunction9);
+
+function myFunction9(value) {
+  return value <= 45 ;
+}
+
+console.log(over18)
+
+
